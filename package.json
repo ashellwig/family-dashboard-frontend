@@ -1,0 +1,39 @@
+{
+  "name": "family-dashboard",
+  "version": "0.1.0",
+  "description": "Framework-less SPA",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashellwig/family-dashboard.git"
+  },
+  "keywords": [
+    "spa",
+    "no-framework",
+    "mongo-db",
+    "es7",
+    "es6",
+    "es5"
+  ],
+  "author": "Ashton S. Hellwig <ahellwig.dev@gmail.com>",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/ashellwig/family-dashboard/issues"
+  },
+  "homepage": "https://github.com/ashellwig/family-dashboard#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
